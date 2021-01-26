@@ -11,7 +11,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{route('newnote')}}">Add new notice</a>
+                    <a class="nav-link" href="{{route('create_note')}}">Add new notice</a>
                 </li>
             </ul>
         </div>

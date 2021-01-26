@@ -19,8 +19,7 @@
                     <h2>Add new note: </h2>
 
 
-                    <form method="POST" action="#">
-                        @csrf
+                    <form method="POST" action="{{route('store_note')}}">
                         <fieldset class="form-group">
 
                             <div class="form-row">
@@ -38,8 +37,8 @@
                             <div class="form-row">
                                 <div class="col">
                                     <label for="content"> The content of the note: </label>
-                                    <textarea  id="content" name="content" cols="10" rows="5" required class="form-control @error('content') is-invalid @enderror" > </textarea>
-                                    @error('content')
+                                    <textarea  id="text" name="text" cols="10" rows="5" required class="form-control @error('text') is-invalid @enderror" > </textarea>
+                                    @error('text')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
