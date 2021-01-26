@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Note;
+use App\Models\ArchivedNote;
 use Illuminate\Http\Request;
 
 class NotesController extends Controller
@@ -16,10 +18,6 @@ class NotesController extends Controller
         return view('welcome');
     }
 
-    public function addNote()
-    {
-        return view('newNote');
-    }
 
     /**
      * Show the form for creating a new resource.
@@ -28,7 +26,10 @@ class NotesController extends Controller
      */
     public function create()
     {
-        //
+        $note = new Note();
+        $ar_note = new ArchivedNote();
+
+        return view('newNote', compact('note'), compact('ar_note'));
     }
 
     /**
@@ -39,7 +40,14 @@ class NotesController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $note = new  Note();
+        $note -> title = $request->title;
+        $note ->content = $request ->text;
+
+        $note->save();
+
+
+
     }
 
     /**
