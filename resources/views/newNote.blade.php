@@ -49,10 +49,10 @@
 
 
 
-                        <button type="submit" class="btn btn-primary">
-                            Rejestruj
+                        <button type="submit" class="btn btn-outline-primary">
+                            Add note
                         </button>
-                        <button type="reset" class="btn btn-danger" value="Odrzuc"> Odrzuć </button>
+                        <button type="reset" class="btn btn-outline-danger" value="Odrzuc"> Cancel </button>
                         </fieldset>
                     </form>
                 </div>
