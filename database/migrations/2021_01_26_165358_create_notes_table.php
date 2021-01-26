@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateArchiveTable extends Migration
+class CreateNotesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,8 @@ class CreateArchiveTable extends Migration
      */
     public function up()
     {
-        Schema::create('archive', function (Blueprint $table) {
+        Schema::create('notes', function (Blueprint $table) {
             $table->id();
-            $table->bigInteger('newest_id')->unsigned();
-            $table->foreign('newest_id')->references('id')->on('newest')->cascadeOnDelete();
             $table->string('title');
             $table->text('content');
             $table->timestamps();
@@ -30,6 +28,6 @@ class CreateArchiveTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('archive');
+        Schema::dropIfExists('notes');
     }
 }

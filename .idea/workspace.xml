@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c82142f-81a0-4780-992e-e17438a0dc48" name="Default Changelist" comment="NoteRequest has been created">
+    <list default="true" id="5c82142f-81a0-4780-992e-e17438a0dc48" name="Default Changelist" comment="Updated &quot;rules&quot; in NotesController and request object in controller">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NotesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/NotesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Requests/NoteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/NoteRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_26_122311_create_newest_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_26_165358_create_notes_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_26_132046_create_archive_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/newNote.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/newNote.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +192,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611608413308</updated>
       <workItem from="1611608414624" duration="676000" />
-      <workItem from="1611655544008" duration="13863000" />
+      <workItem from="1611655544008" duration="16539000" />
     </task>
     <task id="LOCAL-00001" summary="Laravel default config">
       <created>1611608452335</created>
@@ -289,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611672076858</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Updated &quot;rules&quot; in NotesController and request object in controller">
+      <created>1611673178413</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1611673178413</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +332,7 @@
     <MESSAGE value="Changes in functions &quot;create&quot; and &quot;store&quot; in notes controller. Routes have been updated" />
     <MESSAGE value="Minor changes in views" />
     <MESSAGE value="NoteRequest has been created" />
-    <option name="LAST_COMMIT_MESSAGE" value="NoteRequest has been created" />
+    <MESSAGE value="Updated &quot;rules&quot; in NotesController and request object in controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated &quot;rules&quot; in NotesController and request object in controller" />
   </component>
 </project>

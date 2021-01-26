@@ -28,9 +28,9 @@ class NotesController extends Controller
     public function create()
     {
         $note = new Note();
-        $ar_note = new ArchivedNote();
+        //$ar_note = new ArchivedNote();
 
-        return view('newNote', compact('note'), compact('ar_note'));
+        return view('newNote', compact('note'));
     }
 
     /**
@@ -45,9 +45,9 @@ class NotesController extends Controller
         $note -> title = $request->title;
         $note ->content = $request ->text;
 
-        $note->save();
-
-
+        if($note->save()){
+            return view('welcome');
+        }
 
     }
 

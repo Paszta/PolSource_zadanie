@@ -20,6 +20,7 @@
 
 
                     <form method="POST" action="{{route('store_note')}}">
+                        {{csrf_field()}}
                         <fieldset class="form-group">
 
                             <div class="form-row">
