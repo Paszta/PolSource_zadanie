@@ -16,7 +16,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2>Formularz rejestracyjny: </h2>
+                    <h2 class="align-self-center">Notes board </h2>
 
 
                 </div>
