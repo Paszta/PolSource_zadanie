@@ -101,6 +101,10 @@ class NotesController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $note = Note::find($id);
+
+        if($note->delete()){
+            return redirect() -> route('landingpage');
+        }
     }
 }

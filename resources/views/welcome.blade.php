@@ -35,11 +35,27 @@
                                         <td>{{$note -> id}}</td>
                                         <td>{{$note -> title}}</td>
                                         <td>{{$note -> content}}</td>
+                                        <td class="d-inline-flex">
+
+                                            <form action="{{route('remove',['id' => $note->id])}}" method="POST">
+                                                {{csrf_field()}}
+                                                <input name="_method" type="hidden" value="DELETE">
+                                                <button class="btn btn-outline-danger"> Remove </button>
+                                            </form>
+
                                             <form action="#" method="POST">
                                                 {{csrf_field()}}
                                                 <input name="_method" type="hidden" value="PATCH">
-                                                <td><button class="btn btn-outline-danger"> To nie działa jeszcze</button></td>
+                                                <button class="btn btn-outline-success mx-2"> Edit </button>
                                             </form>
+
+                                            <form action="#" method="POST">
+                                                {{csrf_field()}}
+                                                <input name="_method" type="hidden" value="PATCH">
+                                                <button class="btn btn-outline-warning mx-2"> Show history of changes </button>
+                                            </form>
+
+                                            </td>
                                     </tr></thead>
                             @endforeach
                         </table>

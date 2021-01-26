@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c82142f-81a0-4780-992e-e17438a0dc48" name="Default Changelist" comment="Adding notes to &quot;newest&quot; possible, reading from database possible">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_26_171552_create_archived_notes_table.php" afterDir="false" />
+    <list default="true" id="5c82142f-81a0-4780-992e-e17438a0dc48" name="Default Changelist" comment="Added softdeleting to the database's tables definitions.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NotesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/NotesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +190,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611608413308</updated>
       <workItem from="1611608414624" duration="676000" />
-      <workItem from="1611655544008" duration="18284000" />
+      <workItem from="1611655544008" duration="26931000" />
     </task>
     <task id="LOCAL-00001" summary="Laravel default config">
       <created>1611608452335</created>
@@ -310,7 +311,35 @@
       <option name="project" value="LOCAL" />
       <updated>1611680667840</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Changes in notes management">
+      <created>1611681873645</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1611681873645</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Minor changes in navbar">
+      <created>1611690714498</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1611690714498</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Enabling note and archived note models to be &quot;softdeleted&quot;">
+      <created>1611696341134</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1611696341134</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Added softdeleting to the database's tables definitions.">
+      <created>1611697326264</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1611697326264</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,6 +375,10 @@
     <MESSAGE value="Updated &quot;rules&quot; in NotesController and request object in controller" />
     <MESSAGE value="Changes related to notes i.e. requesting, inserting to database etc." />
     <MESSAGE value="Adding notes to &quot;newest&quot; possible, reading from database possible" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding notes to &quot;newest&quot; possible, reading from database possible" />
+    <MESSAGE value="Changes in notes management" />
+    <MESSAGE value="Minor changes in navbar" />
+    <MESSAGE value="Enabling note and archived note models to be &quot;softdeleted&quot;" />
+    <MESSAGE value="Added softdeleting to the database's tables definitions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added softdeleting to the database's tables definitions." />
   </component>
 </project>

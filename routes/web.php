@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'App\Http\Controllers\NotesController@index')->name('landingpage');
+Route::delete('/{id}', 'App\Http\Controllers\NotesController@destroy')->name('remove');
 
 Route::get('/addNote', 'App\Http\Controllers\NotesController@create')->name('create_note');
 Route::post('/addNote', 'App\Http\Controllers\NotesController@store')->name('store_note');
