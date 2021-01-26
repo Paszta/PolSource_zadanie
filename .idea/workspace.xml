@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c82142f-81a0-4780-992e-e17438a0dc48" name="Default Changelist" comment="Notes controller with basic functions has been created, routes have been updated">
-      <change afterPath="$PROJECT_DIR$/app/Models/Note.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" />
-    </list>
+    <list default="true" id="5c82142f-81a0-4780-992e-e17438a0dc48" name="Default Changelist" comment="Note model has been created" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,7 +185,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611608413308</updated>
       <workItem from="1611608414624" duration="676000" />
-      <workItem from="1611655544008" duration="10294000" />
+      <workItem from="1611655544008" duration="10940000" />
     </task>
     <task id="LOCAL-00001" summary="Laravel default config">
       <created>1611608452335</created>
@@ -253,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611669252080</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Note model has been created">
+      <created>1611669600125</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611669600125</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +285,7 @@
     <MESSAGE value="Migrations have been created, entities in database have been created with the usage of migrations" />
     <MESSAGE value="Minor UI changes" />
     <MESSAGE value="Notes controller with basic functions has been created, routes have been updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Notes controller with basic functions has been created, routes have been updated" />
+    <MESSAGE value="Note model has been created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Note model has been created" />
   </component>
 </project>
