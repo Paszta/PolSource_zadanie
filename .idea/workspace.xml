@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c82142f-81a0-4780-992e-e17438a0dc48" name="Default Changelist" comment="Minor changes in UI (background photo, positioning of elements)">
-      <change beforePath="$PROJECT_DIR$/resources/views/newNote.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/newNote.blade.php" afterDir="false" />
+    <list default="true" id="5c82142f-81a0-4780-992e-e17438a0dc48" name="Default Changelist" comment="Minor changes in UI (buttons)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +186,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611608413308</updated>
       <workItem from="1611608414624" duration="676000" />
-      <workItem from="1611655544008" duration="4122000" />
+      <workItem from="1611655544008" duration="5538000" />
     </task>
     <task id="LOCAL-00001" summary="Laravel default config">
       <created>1611608452335</created>
@@ -216,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611659834116</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Minor changes in UI (buttons)">
+      <created>1611659965137</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611659965137</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +245,7 @@
     <MESSAGE value="Laravel default config" />
     <MESSAGE value="Simple and minimalistic UI has been added, routes have been updated" />
     <MESSAGE value="Minor changes in UI (background photo, positioning of elements)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor changes in UI (background photo, positioning of elements)" />
+    <MESSAGE value="Minor changes in UI (buttons)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor changes in UI (buttons)" />
   </component>
 </project>
