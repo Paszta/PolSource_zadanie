@@ -15,4 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('landingpage');
+
+
+Route::get('/addnote', function () {
+    return view('newNote');
+})->name('newnote');
