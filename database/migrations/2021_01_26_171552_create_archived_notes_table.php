@@ -14,6 +14,7 @@ class CreateArchivedNotesTable extends Migration
     public function up()
     {
         Schema::create('archived_notes', function (Blueprint $table) {
+            $table->softDeletes();
             $table->id();
             $table->bigInteger('newest_id')->unsigned();
             $table->foreign('newest_id')->references('id')->on('notes')->onDelete('cascade');
