@@ -6,6 +6,7 @@ use App\Models\Note;
 use App\Models\ArchivedNote;
 use Illuminate\Http\Request;
 use App\Http\Requests\NoteRequest;
+use Illuminate\View\View;
 
 class NotesController extends Controller
 {
@@ -17,7 +18,7 @@ class NotesController extends Controller
     public function index()
     {
         $notes = Note::orderby('id', 'desc')->get();
-        return view('welcome', compact('notes'));
+      return view('welcome', compact('notes'));
     }
 
 
@@ -31,7 +32,7 @@ class NotesController extends Controller
         $note = new Note();
         $ar_note = new ArchivedNote();
 
-        return view('newNote', compact('note'), compact('ar_note'));
+        return view('newNote', compact('note','ar_note'));
     }
 
     /**
@@ -52,7 +53,7 @@ class NotesController extends Controller
             $ar_note->title = $request->title;
             $ar_note->content = $request->text;
             if($ar_note->save()){
-                return view('welcome');
+               return redirect()->route('landingpage');
             }
         }
 
