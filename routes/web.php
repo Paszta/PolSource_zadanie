@@ -13,11 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-})->name('landingpage');
+Route::get('/', 'App\Http\Controllers\NotesController@index')->name('landingpage');
+
+Route::get('/addNote', 'App\Http\Controllers\NotesController@addNote')->name('newnote');
 
 
-Route::get('/addnote', function () {
-    return view('newNote');
-})->name('newnote');
