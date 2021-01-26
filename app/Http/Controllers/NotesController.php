@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Note;
 use App\Models\ArchivedNote;
 use Illuminate\Http\Request;
+use App\Http\Requests\NoteRequest;
 
 class NotesController extends Controller
 {
@@ -38,7 +39,7 @@ class NotesController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(NoteRequest $request)
     {
         $note = new  Note();
         $note -> title = $request->title;
