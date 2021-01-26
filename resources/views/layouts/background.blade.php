@@ -28,7 +28,7 @@
 
 
 
-<section id="services" class="fixed-bottom">
+<section id="services" class="py-5 fixed-bottom">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
@@ -40,7 +40,7 @@
 
 
 
-<footer class="py-5 bg-dark fixed-bottom">
+<footer class="py-15 bg-dark fixed-bottom">
     <div class="container">
         <p class="m-0 text-center text-white">Copyright &copy; AP 2020/2021</p>
     </div>
