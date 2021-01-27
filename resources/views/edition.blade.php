@@ -18,7 +18,7 @@
                 <div class="col-lg-8 mx-auto">
 
 
-                    <form method="POST" action="{{route('update_note')}}">
+                    <form method="POST" action="{{route('note_update', $note->id)}}">
                         {{csrf_field()}}
                         <input name="_method" type="hidden" value="PUT">
                         <fieldset class="form-group">
@@ -33,7 +33,7 @@
                                     </span>
                                     @enderror
                                 </div>
-                            </div>
+                            </div
 
                             <div class="form-row">
                                 <div class="col">
@@ -52,7 +52,7 @@
 
 
                             <button type="submit" class="btn btn-outline-primary">
-                                Add note
+                                Apply changes
                             </button>
                             <button type="reset" class="btn btn-outline-danger" value="Odrzuc"> Cancel </button>
                         </fieldset>
