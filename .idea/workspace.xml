@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c82142f-81a0-4780-992e-e17438a0dc48" name="Default Changelist" comment="Changes that enable deleting notes">
-      <change afterPath="$PROJECT_DIR$/resources/views/edition.blade.php" afterDir="false" />
+    <list default="true" id="5c82142f-81a0-4780-992e-e17438a0dc48" name="Default Changelist" comment="Changes in views - early stages of editing notes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NotesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/NotesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/navbar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +189,7 @@
       <updated>1611608413308</updated>
       <workItem from="1611608414624" duration="676000" />
       <workItem from="1611655544008" duration="27004000" />
-      <workItem from="1611743931707" duration="4790000" />
+      <workItem from="1611743931707" duration="6731000" />
     </task>
     <task id="LOCAL-00001" summary="Laravel default config">
       <created>1611608452335</created>
@@ -349,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611700035424</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Changes in views - early stages of editing notes">
+      <created>1611753101898</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1611753101898</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,6 +393,8 @@
     <MESSAGE value="Enabling note and archived note models to be &quot;softdeleted&quot;" />
     <MESSAGE value="Added softdeleting to the database's tables definitions." />
     <MESSAGE value="Changes that enable deleting notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes that enable deleting notes" />
+    <MESSAGE value="Changes in views - editing notes" />
+    <MESSAGE value="Changes in views - early stages of editing notes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes in views - early stages of editing notes" />
   </component>
 </project>

@@ -78,7 +78,8 @@ class NotesController extends Controller
      */
     public function edit($id)
     {
-        //
+        $note = Note::find($id);
+        return view('edition', compact('note'));
     }
 
     /**
@@ -88,9 +89,21 @@ class NotesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(NoteRequest $request, $id)
     {
-        //
+        $note = Note::find($id);
+        $note->content = $request ->text;
+
+        if($note->push()){
+            $ar_note = new ArchivedNote();
+            $ar_note-> newest_id = $note->id;
+            $ar_note-> title = $note -> title;
+            $ar_note-> content = $request -> text;
+            if($ar_note->save()){
+               return redirect()->route('landingpage');
+            }
+        }
+
     }
 
     /**
