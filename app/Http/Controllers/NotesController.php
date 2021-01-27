@@ -6,6 +6,7 @@ use App\Models\Note;
 use App\Models\ArchivedNote;
 use Illuminate\Http\Request;
 use App\Http\Requests\NoteRequest;
+use Illuminate\Support\Facades\DB;
 use Illuminate\View\View;
 
 class NotesController extends Controller
@@ -21,6 +22,17 @@ class NotesController extends Controller
       return view('welcome', compact('notes'));
     }
 
+    public function archive()
+    {
+        $ar_notes = DB::table('archived_notes')->distinct()->select('title', 'newest_id')->get();
+        return view('archive', compact('ar_notes'));
+    }
+
+    public function history($id)
+    {
+        $ar_notes = DB::table('archived_notes')->select('title', 'content', 'created_at','updated_at')->where('newest_id', '=', $id)->get();
+        return view('archive', compact('ar_notes'));
+    }
 
     /**
      * Show the form for creating a new resource.

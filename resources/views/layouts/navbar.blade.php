@@ -14,7 +14,7 @@
                     <a class="nav-link" href="{{route('create_note')}}">Add new note</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Archive</a>
+                    <a class="nav-link" href="{{route('archive')}}">Archive</a>
                 </li>
             </ul>
         </div>
