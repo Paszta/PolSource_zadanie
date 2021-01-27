@@ -25,7 +25,6 @@
                                 <th scope="col">Id</th>
                                 <th scope="col">Title</th>
                                 <th scope="col">Content</th>
-                                <th scope="col">What do you want to do with the note?</th>
                             </tr>
                             </thead>
 
@@ -35,8 +34,7 @@
                                         <td>{{$note -> id}}</td>
                                         <td>{{$note -> title}}</td>
                                         <td>{{$note -> content}}</td>
-                                        <td class="d-inline-flex">
-
+                                        <td class="d-inline-flex w-100">
                                             <form action="{{route('remove',['id' => $note->id])}}" method="POST">
                                                 {{csrf_field()}}
                                                 <input name="_method" type="hidden" value="DELETE">
@@ -48,13 +46,6 @@
                                                 <input name="_method" type="hidden" value="PATCH">
                                                 <button class="btn btn-outline-success mx-2"> Edit </button>
                                             </form>
-
-                                            <form action="#" method="POST">
-                                                {{csrf_field()}}
-                                                <input name="_method" type="hidden" value="PATCH">
-                                                <button class="btn btn-outline-warning mx-2"> Show history of changes </button>
-                                            </form>
-
                                             </td>
                                     </tr></thead>
                             @endforeach
