@@ -33,7 +33,7 @@
                                     <td>{{$note -> title}}</td>
                                     <td>{{$note -> newest_id}}</td>
                                     <td class="d-inline-flex align-self-center w-100">
-                                        <form action="#" method="GET">
+                                        <form action="{{route('history', $note->newest_id)}}" method="GET">
                                             {{csrf_field()}}
                                             <button class="btn btn-outline-danger w-100 mx-3"> Show history of changes </button>
                                         </form>

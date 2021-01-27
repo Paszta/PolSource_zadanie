@@ -33,7 +33,7 @@
                                     </span>
                                     @enderror
                                 </div>
-                            </div
+                            </div>
 
                             <div class="form-row">
                                 <div class="col">
@@ -48,13 +48,14 @@
                                     @enderror
                                 </div>
                             </div>
+                            </fieldset>
 
-
-
+                            <fieldset>
                             <button type="submit" class="btn btn-outline-primary">
                                 Apply changes
                             </button>
                             <button type="reset" class="btn btn-outline-danger" value="Odrzuc"> Cancel </button>
+
                         </fieldset>
                     </form>
                 </div>
