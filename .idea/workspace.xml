@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c82142f-81a0-4780-992e-e17438a0dc48" name="Default Changelist" comment="Enabling archive - showing distinct titles and IDs">
-      <change afterPath="$PROJECT_DIR$/resources/views/history.blade.php" afterDir="false" />
+    <list default="true" id="5c82142f-81a0-4780-992e-e17438a0dc48" name="Default Changelist" comment="Displaying detailed history of the specified note">
+      <change afterPath="$PROJECT_DIR$/database/factories/NoteFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NotesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/NotesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/archive.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/archive.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/edition.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/edition.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Note.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Note.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +191,7 @@
       <updated>1611608413308</updated>
       <workItem from="1611608414624" duration="676000" />
       <workItem from="1611655544008" duration="27004000" />
-      <workItem from="1611743931707" duration="14677000" />
+      <workItem from="1611743931707" duration="17836000" />
     </task>
     <task id="LOCAL-00001" summary="Laravel default config">
       <created>1611608452335</created>
@@ -384,7 +382,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611765576899</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Minor changes in elements positioning">
+      <created>1611769774933</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1611769774933</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Displaying detailed history of the specified note">
+      <created>1611769819541</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1611769819541</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,8 +416,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Minor changes in UI (background photo, positioning of elements)" />
-    <MESSAGE value="Minor changes in UI (buttons)" />
     <MESSAGE value="Minor changes (default config)" />
     <MESSAGE value="Migrations have been created, entities in database have been created with the usage of migrations" />
     <MESSAGE value="Minor UI changes" />
@@ -429,6 +439,8 @@
     <MESSAGE value="Chamges in display of the newest notes" />
     <MESSAGE value="Minor changes in &quot;updating&quot; notes" />
     <MESSAGE value="Enabling archive - showing distinct titles and IDs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enabling archive - showing distinct titles and IDs" />
+    <MESSAGE value="Minor changes in elements positioning" />
+    <MESSAGE value="Displaying detailed history of the specified note" />
+    <option name="LAST_COMMIT_MESSAGE" value="Displaying detailed history of the specified note" />
   </component>
 </project>
