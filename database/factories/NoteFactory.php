@@ -22,10 +22,10 @@ class NoteFactory extends Factory
     public function definition()
     {
         return [
-            'title' => $this -> faker ->title,
+            'title' => $this -> faker ->words(6, true),
             'content' => $this -> faker ->realText(),
             'created_at' => now(),
-            'modified_at' => now()
+            'updated_at' => now()
         ];
     }
 }

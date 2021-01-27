@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c82142f-81a0-4780-992e-e17438a0dc48" name="Default Changelist" comment="Displaying detailed history of the specified note">
-      <change afterPath="$PROJECT_DIR$/database/factories/NoteFactory.php" afterDir="false" />
+    <list default="true" id="5c82142f-81a0-4780-992e-e17438a0dc48" name="Default Changelist" comment="Integration tests - NoteFactory + Faker lib">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Note.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Note.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/NoteFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/NoteFactory.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +189,7 @@
       <updated>1611608413308</updated>
       <workItem from="1611608414624" duration="676000" />
       <workItem from="1611655544008" duration="27004000" />
-      <workItem from="1611743931707" duration="17836000" />
+      <workItem from="1611743931707" duration="21464000" />
     </task>
     <task id="LOCAL-00001" summary="Laravel default config">
       <created>1611608452335</created>
@@ -396,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611769819541</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Integration tests - NoteFactory + Faker lib">
+      <created>1611774760040</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1611774760040</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +421,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Minor changes (default config)" />
     <MESSAGE value="Migrations have been created, entities in database have been created with the usage of migrations" />
     <MESSAGE value="Minor UI changes" />
     <MESSAGE value="Notes controller with basic functions has been created, routes have been updated" />
@@ -441,6 +445,7 @@
     <MESSAGE value="Enabling archive - showing distinct titles and IDs" />
     <MESSAGE value="Minor changes in elements positioning" />
     <MESSAGE value="Displaying detailed history of the specified note" />
-    <option name="LAST_COMMIT_MESSAGE" value="Displaying detailed history of the specified note" />
+    <MESSAGE value="Integration tests - NoteFactory + Faker lib" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integration tests - NoteFactory + Faker lib" />
   </component>
 </project>
