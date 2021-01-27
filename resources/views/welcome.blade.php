@@ -22,32 +22,34 @@
                         <table class="table table-bordered">
                             <thead>
                             <tr>
-                                <th scope="col">Id</th>
                                 <th scope="col">Title</th>
                                 <th scope="col">Content</th>
+                                <th scope="col">Created</th>
+                                <th scope="col">Modified</th>
                             </tr>
                             </thead>
 
                             @foreach($notes as $note)
-                                    <thead>
+                                    <tbody class="w-auto">
                                     <tr>
-                                        <td>{{$note -> id}}</td>
                                         <td>{{$note -> title}}</td>
                                         <td>{{$note -> content}}</td>
+                                        <td>{{$note -> created_at}}</td>
+                                        <td>{{$note -> updated_at}}</td>
                                         <td class="d-inline-flex w-100">
                                             <form action="{{route('remove',['id' => $note->id])}}" method="POST">
                                                 {{csrf_field()}}
                                                 <input name="_method" type="hidden" value="DELETE">
-                                                <button class="btn btn-outline-danger"> Remove </button>
+                                                <button class="btn btn-outline-danger mx-3"> Remove </button>
                                             </form>
 
-                                            <form action="#" method="POST">
+                                            <form action="{{route('edit_note', $note->id)}}" method="GET">
                                                 {{csrf_field()}}
-                                                <input name="_method" type="hidden" value="PATCH">
-                                                <button class="btn btn-outline-success mx-2"> Edit </button>
+                                                <button class="btn btn-outline-success mx-3"> Edit </button>
                                             </form>
+
                                             </td>
-                                    </tr></thead>
+                                    </tr></tbody>
                             @endforeach
                         </table>
                     </div>
