@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c82142f-81a0-4780-992e-e17438a0dc48" name="Default Changelist" comment="Changes in views - early stages of editing notes">
+    <list default="true" id="5c82142f-81a0-4780-992e-e17438a0dc48" name="Default Changelist" comment="Enabling archive - showing distinct titles and IDs">
+      <change afterPath="$PROJECT_DIR$/resources/views/history.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NotesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/NotesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/archive.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/archive.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/edition.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/edition.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +193,7 @@
       <updated>1611608413308</updated>
       <workItem from="1611608414624" duration="676000" />
       <workItem from="1611655544008" duration="27004000" />
-      <workItem from="1611743931707" duration="6731000" />
+      <workItem from="1611743931707" duration="14677000" />
     </task>
     <task id="LOCAL-00001" summary="Laravel default config">
       <created>1611608452335</created>
@@ -352,7 +356,35 @@
       <option name="project" value="LOCAL" />
       <updated>1611753101898</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Changes in note controller - functions edit and update">
+      <created>1611757542775</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1611757542775</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Chamges in display of the newest notes">
+      <created>1611761947978</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1611761947978</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Minor changes in &quot;updating&quot; notes">
+      <created>1611761991210</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1611761991210</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Enabling archive - showing distinct titles and IDs">
+      <created>1611765576899</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1611765576899</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,8 +404,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Laravel default config" />
-    <MESSAGE value="Simple and minimalistic UI has been added, routes have been updated" />
     <MESSAGE value="Minor changes in UI (background photo, positioning of elements)" />
     <MESSAGE value="Minor changes in UI (buttons)" />
     <MESSAGE value="Minor changes (default config)" />
@@ -395,6 +425,10 @@
     <MESSAGE value="Changes that enable deleting notes" />
     <MESSAGE value="Changes in views - editing notes" />
     <MESSAGE value="Changes in views - early stages of editing notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes in views - early stages of editing notes" />
+    <MESSAGE value="Changes in note controller - functions edit and update" />
+    <MESSAGE value="Chamges in display of the newest notes" />
+    <MESSAGE value="Minor changes in &quot;updating&quot; notes" />
+    <MESSAGE value="Enabling archive - showing distinct titles and IDs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enabling archive - showing distinct titles and IDs" />
   </component>
 </project>

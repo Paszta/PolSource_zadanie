@@ -18,7 +18,7 @@ Route::delete('/{id}', 'App\Http\Controllers\NotesController@destroy')->name('re
 Route::get('/edit/{id}', 'App\Http\Controllers\NotesController@edit')->name('edit_note');
 Route::put('/{id}', 'App\Http\Controllers\NotesController@update')->name('note_update');
 Route::get('/archive', 'App\Http\Controllers\NotesController@archive')->name('archive');
-Route::get('/archive/post/{id}', 'App\Http\Controllers\NotesController@history')->name('archive');
+Route::get('/archive/post/{id}', 'App\Http\Controllers\NotesController@history')->name('history');
 
 Route::get('/addNote', 'App\Http\Controllers\NotesController@create')->name('create_note');
 Route::post('/addNote', 'App\Http\Controllers\NotesController@store')->name('store_note');

@@ -31,7 +31,7 @@ class NotesController extends Controller
     public function history($id)
     {
         $ar_notes = DB::table('archived_notes')->select('title', 'content', 'created_at','updated_at')->where('newest_id', '=', $id)->get();
-        return view('archive', compact('ar_notes'));
+        return view('history', compact('ar_notes'));
     }
 
     /**
