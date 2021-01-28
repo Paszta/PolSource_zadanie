@@ -5,7 +5,7 @@ _________
 
 Tech/Framework used: PHP + Laravel (Controller. migrations, factory etc were created with the usage of artisan commands)
 
-SQL dialect: MySQL - database name, username and password are written below. 
+SQL dialect: MySQL - database name, username and password are written below. (I also mention using XAMPP below but I didn't use MySQL module in XAMPP. I also created user with MySQL Workbench)
 
 For creating this project I used PHPStrom by JetBrains and for creating and managing the database I used DataGrip also by JetBrains. 
 
@@ -45,6 +45,15 @@ You need to enter the "Run/Debug Configuration" and then create a configuration 
 
 _______
 
-## 
- 
+## Example usages (i.e., like example cURL commands to CRUD the notes)
+
+**Exemplary cURL commends to CRUD notes**
+
+1. curl http://localhost/Polsource_zadanie/index.php/ (default method will be GET) -> retreving resources (newest notes) from URL ("/") 
+
+2. curl --request POST (or -d) 'title=SthRandom&text=SomeRandomText'  http://localhost/Polsource_zadanie/index.php/addNote -> sending data with POST method to the recieving web app
+
+3. curl http://localhost/Polsource_zadanie/index.php/[selected id of the note] -X DELETE -> sending DELETE request
+
+4. curl -d 'text=ModifiedRandomText' -X PUT http://localhost/Polsource_zadanie/index.php/edit/[id of the note to update] -> updating content of the selected note
  
