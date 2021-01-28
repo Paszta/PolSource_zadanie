@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c82142f-81a0-4780-992e-e17438a0dc48" name="Default Changelist" comment="Enabled sortable columns on main page">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NotesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/NotesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/NoteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/NoteRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Note.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Note.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/newNote.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/newNote.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="5c82142f-81a0-4780-992e-e17438a0dc48" name="Default Changelist" comment="Comments added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,7 +196,7 @@
       <workItem from="1611655544008" duration="27004000" />
       <workItem from="1611743931707" duration="21536000" />
       <workItem from="1611831149315" duration="5518000" />
-      <workItem from="1611837364439" duration="8368000" />
+      <workItem from="1611837364439" duration="8548000" />
     </task>
     <task id="LOCAL-00001" summary="Laravel default config">
       <created>1611608452335</created>
@@ -450,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611849039341</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Comments added">
+      <created>1611854741662</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1611854741662</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +470,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Notes controller with basic functions has been created, routes have been updated" />
     <MESSAGE value="Note model has been created" />
     <MESSAGE value="Archived note model has been created" />
     <MESSAGE value="Changes in functions &quot;create&quot; and &quot;store&quot; in notes controller. Routes have been updated" />
@@ -495,6 +494,7 @@
     <MESSAGE value="Integration tests - NoteFactory + Faker lib" />
     <MESSAGE value="Basic integration tests' configuration" />
     <MESSAGE value="Enabled sortable columns on main page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enabled sortable columns on main page" />
+    <MESSAGE value="Comments added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments added" />
   </component>
 </project>
