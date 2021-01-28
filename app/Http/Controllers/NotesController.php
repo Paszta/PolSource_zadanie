@@ -18,7 +18,7 @@ class NotesController extends Controller
      */
     public function index()
     {
-        $notes = Note::orderby('id', 'desc')->get();
+        $notes = Note::sortable()->get();
       return view('welcome', compact('notes'));
     }
 

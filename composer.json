@@ -14,7 +14,8 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
-        "symfony/css-selector": "~2.5"
+        "kyslik/column-sortable": "^6.0"
+
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -22,8 +23,7 @@
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.2",
         "nunomaduro/collision": "^5.0",
-        "phpunit/phpunit": "^9.3.3",
-        "laracasts/integrated": "0.15.6"
+        "phpunit/phpunit": "^9.3.3"
     },
     "config": {
         "optimize-autoloader": true,

@@ -12,6 +12,7 @@
 
 @section('content')
 
+
     <section id="about">
         <div class="container">
             <div class="row">
@@ -22,10 +23,10 @@
                         <table class="table table-bordered">
                             <thead>
                             <tr>
-                                <th scope="col">Title</th>
-                                <th scope="col">Content</th>
-                                <th scope="col">Created</th>
-                                <th scope="col">Modified</th>
+                                <th scope="col"> @sortablelink('name') </th>
+                                <th scope="col">@sortablelink('content')</th>
+                                <th scope="col">@sortablelink('created_at')</th>
+                                <th scope="col">@sortablelink('updated_at')</th>
                             </tr>
                             </thead>
 
