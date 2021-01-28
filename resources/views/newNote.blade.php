@@ -18,7 +18,7 @@
                 <div class="col-lg-8 mx-auto">
                     <h2>Add new note: </h2>
 
-
+                    <!-- "add note" form -->
                     <form method="POST" action="{{route('store_note')}}">
                         {{csrf_field()}}
                         <fieldset class="form-group">

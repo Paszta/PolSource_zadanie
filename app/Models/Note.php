@@ -15,6 +15,7 @@ class Note extends Model
 
     use Sortable;
 
+    // Array of sortable fields in Note model, used by sortable-columns blade extension in the "landing page" view
     public $sortable=['title', 'content', 'created_at', 'updated_at'];
 
 }

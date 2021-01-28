@@ -23,6 +23,7 @@ class NoteRequest extends FormRequest
      */
     public function rules()
     {
+        //validation
         return [
             'title' => 'required',
             'text' => 'required'
