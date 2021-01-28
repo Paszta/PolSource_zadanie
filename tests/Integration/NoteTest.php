@@ -23,13 +23,11 @@ class NoteTest extends TestCase
         $response->assertStatus(200);
     }
 
-    public function testDatabase_insertsuccessful(){
+    public function testDatabase(){
 
         $note = Note::factory()->create();
 
         $this->seeInDatabase('title', ['title' => $note->title]);
-
-
 
     }
 
