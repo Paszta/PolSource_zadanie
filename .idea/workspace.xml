@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c82142f-81a0-4780-992e-e17438a0dc48" name="Default Changelist" comment="Integration tests - NoteFactory + Faker lib">
+      <change afterPath="$PROJECT_DIR$/tests/Integration/NoteTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Polsource_zadanie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Polsource_zadanie.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/NoteFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/NoteFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,12 +161,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Photostack" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\xampp\htdocs\Polsource_zadanie\public\js" />
       <recent name="E:\xampp\htdocs\Polsource_zadanie\public\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\Polsource_zadanie\tests\Integration\DB" />
+      <recent name="E:\xampp\htdocs\Polsource_zadanie\tests\Integration" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Web Page.Unnamed">
@@ -189,7 +197,8 @@
       <updated>1611608413308</updated>
       <workItem from="1611608414624" duration="676000" />
       <workItem from="1611655544008" duration="27004000" />
-      <workItem from="1611743931707" duration="21464000" />
+      <workItem from="1611743931707" duration="21536000" />
+      <workItem from="1611831149315" duration="5146000" />
     </task>
     <task id="LOCAL-00001" summary="Laravel default config">
       <created>1611608452335</created>
@@ -401,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611774760040</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Integration tests - NoteFactory + Faker lib">
+      <created>1611779789738</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1611779789738</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
