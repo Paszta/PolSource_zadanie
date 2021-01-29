@@ -39,7 +39,7 @@ and then by default HTTP-server will listen to port 8000.
  
 You need to enter the "Run/Debug Configuration" and then create a configuration for "PHP Web Page". In the configuration field, in the section "server", you need to create new server (i.e. XAMPP) and the host should be, for example localhost (port 80). Then press "Apply" and "OK". When server is already configured, set index.php in "Public" directory as "Start URL". Use browser of your choice.  To start the webservice click on "Run [name of your configuration]"
 
-**Project must be located in htdocs in xampp direcotry otherwise this method will not work**
+**Project must be located in htdocs in xampp directory otherwise this method will not work**
 
 **Configuration process is based on how it looks in PHPStorm**
 
